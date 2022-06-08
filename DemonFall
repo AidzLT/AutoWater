@@ -1,0 +1,7 @@
+_G.toggle = true
+while _G.toggle do
+wait() --Dont Change This
+game.ReplicatedStorage.Remotes.Async:FireServer("WaterFinal", "Test")
+
+game.ReplicatedStorage.Remotes.Async:FireServer("WaterFinal", "Finish")
+end
